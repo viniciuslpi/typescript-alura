@@ -14,4 +14,3 @@ export class Negociacoes {
         return this.negociacoes;
     }
 }
-const negociacoes = new Negociacoes();

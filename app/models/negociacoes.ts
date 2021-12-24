@@ -17,5 +17,3 @@ export class Negociacoes {
     } 
     */
 }
-
-const negociacoes = new Negociacoes();
