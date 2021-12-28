@@ -1,10 +1,11 @@
 {
     "compilerOptions": {
-        "outDir": "dist/js",
-        "target": "ES6",
+        "outDir": "dist/js", // diretorio a ser compilado
+        "target": "ES6", // versao do ecma script q vai rodar
         "noEmitOnError": true,
-        "noImplicitAny": true
+        "noImplicitAny": true, // nao implicitar o tipo any no projeto
+        "moduleResolution": "node" // habilitar para rodar o projeto
     },
-    "include": ["app/**/*"]
+    "include": ["app/**/*"] // onde os arquivos vao ser incluidos e convertidos para js
 
 }
